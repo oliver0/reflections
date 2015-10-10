@@ -13,3 +13,15 @@ You can use the git diff command to compare the working directory to the staged 
 Here you can makes sure that you only have the files pertaining to one logical change in the staging area.
 You can also use the command git diff --staged to compare to the previous commit so you know its what you want to do.
 Finally, when you're sure that everything is in order you can use the command git commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to experiment with some changes that will require a number of different stages.
+With branches you can make commits that don't affect your master branch.
+If your changes end up working out you can attach the branch to the master branch and if not, its not a big deal.
+This allows you to take more risks and not have to always make incremental changes that only slightly improve the code.
+Another helpful case is if you want to add other languages to your program without affecting the master language.
+You can have a Spanish branch for example, where everything is in Spanish for the user.
+You can use branches to make different difficulty levels.
+In the case of the asteroids game an easy-mode could have the asteroids splitting into 2 parts instead of 3.
+If you want your program to behave differently in different situations you may use different branches as well.
