@@ -2,3 +2,7 @@ What happens when you initialize a repository? Why do you need to do it?
 
 A .git file is created. You need it to create commits that can be used as version control.
 After you've created a .git file you can run git commands on it.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It's like a halfway house between the two, a way to organise a group of files from the wc into a logical commit.
