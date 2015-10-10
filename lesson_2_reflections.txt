@@ -6,3 +6,10 @@ After you've created a .git file you can run git commands on it.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 It's like a halfway house between the two, a way to organise a group of files from the wc into a logical commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use the git diff command to compare the working directory to the staged area.
+Here you can makes sure that you only have the files pertaining to one logical change in the staging area.
+You can also use the command git diff --staged to compare to the previous commit so you know its what you want to do.
+Finally, when you're sure that everything is in order you can use the command git commit.
