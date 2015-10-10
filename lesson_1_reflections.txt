@@ -1,0 +1,81 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+When using the diff program the sections in the program that are different are highlighted.
+Its quick and easy to see where the differences are. 
+If an old version worked and a new one doesn't then the bug has arisen from a change in the code.
+Having plus and minus signs draw attention to these changes, removing the need to look through the entire file.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You will spend less time finding bugs in your code as its easy to spot bugs when comparing different versions.
+It could help you understand why certain parts of code exist if you can see older versions.
+If you decide you prefered your code the way it used to be you just return to an old version.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+The pros are as follows:
+The commits can be created at logical points in the code which makes them more useful.
+People have different preferences to what constitutes a logical point so there's more flexibility.
+You could doesn't get saved at completely inappropiate or confusing points causing it to not compile.
+You have a reasonable number of commits relative to the task instead of a fixed number.
+You can write personalised notes about the commits which makes them easier to understand and look up.
+It helps you to think consciously about what constitutes a change in the code.
+It's easier to fix bugs because you know exactly when a bit of code was changed and hence where to look for the bug.
+
+The cons are as follows:
+You might forget to create a commits when you're on a roll and not be able to revist old code as a result.
+It's more time consuming to do it manually.
+It could break the flow of writing code if you have to always be thinking about when to create a commit.]
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Git is relative to code and there are many cases where you might have multiple files related to each other.
+If a change in one file affects another then you need that change to be reflected in the others.
+For example, you may have an html and css file that pertain to the same project.
+If you don't group multiple files together that are related then things could get very messy.
+When using google docs you are usually doing everything in the one file so its not necessary to save miltiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+
+When you're in a directory you can view the files commit history with the command "git log".
+This will show a history of all of the commits made along with a note explaining the changes.
+If you want to compare the differences between these commits then you can use "git diff".
+After the command you put the older commit ID proceeded by the newer commit ID.
+You are then presented with the changes that were made.
+Use the space bar or arrow keys to scroll down.
+If you want to view this in color use the command "git config --global color.ui auto". 
+Red is for deletions and green for additions.
+To sum up, use git log for a total history of the commits and use git diff to compare commits.
+
+How might using version control make you more confident to make changes that could break something?
+
+With version control you can always have a back up so there's nothing to lose in terms of making changes.
+This gives a lot of freedom to experiment and try things out without the fear of doing irreprable damage.
+If you break something or introduce a bug then it's not a big deal, you just go back to a previously working version!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I want to try using it check out different versions of code and explore some more of the available features.
+I want to practice using it on my own code and see how useful it is first hand.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

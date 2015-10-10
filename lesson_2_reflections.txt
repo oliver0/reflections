@@ -1,0 +1,4 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+A .git file is created. You need it to create commits that can be used as version control.
+After you've created a .git file you can run git commands on it.
