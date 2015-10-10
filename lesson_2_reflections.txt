@@ -25,3 +25,9 @@ You can have a Spanish branch for example, where everything is in Spanish for th
 You can use branches to make different difficulty levels.
 In the case of the asteroids game an easy-mode could have the asteroids splitting into 2 parts instead of 3.
 If you want your program to behave differently in different situations you may use different branches as well.
+
+How do the diagrams help you visualize the branch structure?
+
+They make it easier to see what's happening as it can quickly get confusing picturing multiple branches.
+Branch diagrams occur in many different situations so they are a familiar kind of graph.
+They also make it easy to trace back to the root commits and quickly show which states are unreachable.
