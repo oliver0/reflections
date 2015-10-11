@@ -1,0 +1,5 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+If you're working from multiple machines.
+When there are multiple people working on the same project and push files to GitHub.
+When you're confident the changes you're making are final and you don't need to keep it local.
