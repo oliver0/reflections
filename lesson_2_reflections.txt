@@ -31,3 +31,23 @@ How do the diagrams help you visualize the branch structure?
 They make it easier to see what's happening as it can quickly get confusing picturing multiple branches.
 Branch diagrams occur in many different situations so they are a familiar kind of graph.
 They also make it easy to trace back to the root commits and quickly show which states are unreachable.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result is that the master branch, or the branch you want to continue, absorbs all the changes of another branch.
+A new head of the branch is created that makes both branches reachable.
+This allows us to access all the commits from both branches.
+You can delete the name of the branch that has been absorbed without getting rid of its commits.
+When using the git log command the commits ordered by their timestap.
+
+
+
+
+
+
+
+
+
+
+
+
