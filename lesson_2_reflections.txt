@@ -40,6 +40,32 @@ This allows us to access all the commits from both branches.
 You can delete the name of the branch that has been absorbed without getting rid of its commits.
 When using the git log command the commits ordered by their timestap.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros: 
+It saves a lot of time, especially when you're dealing with a lot of commits. 
+There's less risk of human error.
+It's one less thing to worry about when you're working.
+Cons:
+It's possible that Git could merge something you don't want it to which could be hard to resolve.
+If you like to always be aware of what changes are being made it could be annoying that Git takes over this process.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
